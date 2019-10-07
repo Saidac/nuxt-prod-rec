@@ -1,6 +1,6 @@
-
+/* eslint-disable */
 export default {
-  mode: 'universal',
+  mode: '"universal"',
   /*
   ** Headers of the page
   */
