@@ -1,27 +1,26 @@
 <template>
-  <div class="container">
+  <div class="container text-center">
     <div>
-      <logo />
-      <h1 class="title">
-        nuxtZeit
+      <h1 class="text-6xl my-10 font-bold">
+        Nuxt-Product Recommendation
       </h1>
-      <h2 class="subtitle">
-        Practice deploying nuxt app with zeit
+      <h2 class="subtitle my-10">
+        Practicing implementation of DOM mutations from 3rd party REST-api into SSR with nuxt asyncData method in ecommerce example
       </h2>
-      <div class="links">
+      <div class="my-10">
         <a
-          href="https://nuxtjs.org/"
+          href="/hp"
           target="_blank"
           class="button--green"
         >
-          Documentation
+          Home Page
         </a>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href="https://github.com/saidac"
           target="_blank"
           class="button--grey"
         >
-          GitHub
+          Saidac
         </a>
       </div>
     </div>
@@ -29,11 +28,10 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo
+    
   }
 }
 </script>
